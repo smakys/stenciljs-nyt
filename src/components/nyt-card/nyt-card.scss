@@ -1,0 +1,28 @@
+.card {
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  background-color: #FFF;
+
+  img {
+    width: 100%;
+  }
+
+  &__copy {
+    text-align: right;
+    margin: 0;
+    padding: 0 10px 0 0;
+    font-size: .5em;
+    color: #999;
+  }
+
+  &__content {
+    padding: 0 24px;
+  }
+
+  &__abstract {
+    padding-left: 0;
+    font-size: .75em;
+    color: #555;
+  }
+
+}
